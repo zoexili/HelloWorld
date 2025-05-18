@@ -5,6 +5,9 @@ jobs:
     runs-on: macos-latest
     steps: 
       - name: Print greeting
-        run: echo "Hello"
+        run: | 
+            echo "Hello"
+            echo "World"
+            echo "!!!"
       - name: Print goodbye
         run: echo "Bye"
